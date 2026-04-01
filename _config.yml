@@ -1,0 +1,23 @@
+title: 数学笔记
+description: AI 生成的数学博客与讲义
+baseurl: "/web_demo"
+url: "https://cyw6130.github.io"
+
+theme: minima
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: null  # 关闭内置 math，由 KaTeX 接管
+
+permalink: /:year/:month/:day/:title/
+
+author:
+  name: cyw6130
+
+minima:
+  skin: classic
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

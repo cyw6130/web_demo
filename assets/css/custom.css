@@ -1,0 +1,33 @@
+/* 数学公式块居中 */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5em 0;
+}
+
+/* 代码块 */
+pre, code {
+  font-size: 0.9em;
+}
+
+/* 分类标签 */
+.category-tag {
+  background: #f0f0f0;
+  border-radius: 3px;
+  padding: 2px 8px;
+  font-size: 0.85em;
+  color: #555;
+}
+
+/* 文章内容行距 */
+.post-content {
+  line-height: 1.8;
+}
+
+/* 定理/命题样式 */
+.post-content blockquote {
+  border-left: 4px solid #4a90d9;
+  background: #f7f9fc;
+  padding: 0.8em 1em;
+  margin: 1em 0;
+}
